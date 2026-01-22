@@ -7,7 +7,6 @@ En esta actividad se aplican conocimientos aprendidos relacionados a Strings, Es
 
 ### Parte 1: Strings y Estructuras de Selección (`if / else`)
 
-![Captura desde canvas](Actividad_2_parte_1.png)
 - Crea un programa Java que solicite al usuario ingresar su nombre.
 - Utiliza estructuras de selección (if o switch) para verificar si el nombre ingresado coincide con uno específico que definas en tu programa; dependiendo de la coincidencia, muestra un mensaje personalizado.
 -   Aprovecha las operaciones de manejo de cadenas de texto para, así, realizar comparaciones con sensibilidad a mayúsculas o minúsculas y, de esta manera, proporcionar mensajes adecuados.
@@ -37,13 +36,11 @@ public class Actividad2 {
 ---
 
 > Segunda captura determina que el usuario es incorrecto
-![Imagen2 ejercicio](captura_1_2.png)
+![Imagen2 ejercicio](captura_1_2_.png)
 
 ---
 
 ### Parte 2: Estructura de repeticiones y arreglos (`for`) 
-
-![Imagen desde canvas](Actividad_2_parte_2.png)
 
 - Desarrolla un programa que genere una lista de números enteros pares desde dos hasta 100; para lograrlo, puedes utilizar una estructura de repetición (for o while).
 - Almacena estos números en un arreglo.
@@ -72,5 +69,3 @@ public class Actividad2 {
 }
 ```
 ![Imagen Ejercicio2](captura_2.png)
-
----
