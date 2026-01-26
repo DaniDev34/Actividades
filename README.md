@@ -335,10 +335,10 @@ public class Main {
 ![Captura ejercicio](captura_9_3.png)
 
 >Sí la calificación sobrepasa el límite
-![Captura ejercicio](captura_9_2.png)
+![Captura ejercicio](captura_9_1.png)
 
 >Sí la calificación es negativa
-![Captura ejercicio](captura_9_1.png)
+![Captura ejercicio](captura_9_2.png)
 
 
 > Alternativa descartando que el anterior no se cumpla y comparar con el siguiente
@@ -410,4 +410,5 @@ public class Main {
 }
 ```
 >Determina la cantidad de pares en el número ingresado por el usuario
+
 ![Captura ejercicio](captura_10.png)
