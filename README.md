@@ -335,10 +335,10 @@ public class Main {
 ![Captura ejercicio](captura_9_3.png)
 
 >Sí la calificación sobrepasa el límite
-![Captura ejercicio](captura_9_2.png)
+![Captura ejercicio](captura_9_1.png)
 
 >Sí la calificación es negativa
-![Captura ejercicio](captura_9_1.png)
+![Captura ejercicio](captura_9_2.png)
 
 
 > Alternativa descartando que el anterior no se cumpla y comparar con el siguiente
@@ -381,7 +381,37 @@ sencillo).
 espacio
 
 #### Código usado en Java
+```java
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Ingrese un numero:"); // solicita numero al usuario
+        int numero1 = scanner.nextInt();
+        int pares= numero1 / 2; // calcula la cantidad de numeros pares
+        int[] paresArreglo = new int[pares]; // crea el arreglo para almacenar los numeros pares
+        int indiceArreglo = 0;
+        
+        for (int i = 2; i <= numero1; i++) { // determina los numeros pares 
+            if (i % 2 == 0) {
+                paresArreglo[indiceArreglo] = i; // almacena el numero par en el arreglo
+                indiceArreglo++;
+            }
+        }
+        System.out.print("Numeros pares entre 1 y " + numero1 + ": "); // muestra los numeros pares almacenados en el arreglo
+        for (int j = 0; j < paresArreglo.length; j++) {
+            System.out.print(paresArreglo[j]);// imprime cada numero par en una sola linea
+            if (j < paresArreglo.length - 1) {
+                System.out.print(", "); // agrega una coma entre los numeros para estetica a excepcion del ultimo numero
+            }
+        }
+        scanner.close();
+    }  
+}
+```
+>Determina la cantidad de pares en el número ingresado por el usuario
 
+<<<<<<< HEAD
 ```java
 import java.util.Scanner;
 public class Main {
@@ -412,3 +442,6 @@ public class Main {
 ```
 >Determina la cantidad de pares en el número ingresado por el usuario
 ![Captura ejercicio](captura_10.png)
+=======
+![Captura ejercicio](captura_10.png)
+>>>>>>> a45ef0c4a978220c1f7596cdcb95a28c4d508828
